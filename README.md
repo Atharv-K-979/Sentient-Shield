@@ -81,8 +81,3 @@ Click Load Unpacked and select the dist or build folder from this project.
 * Commit your Changes (git commit -m 'Add some AmazingFeature').
 * Push to the Branch (git push origin feature/AmazingFeature).
 * Open a Pull Request.
-
-📜 License
-Distributed under the MIT License. See LICENSE for more information.
-
-Developed with ❤️ at AISSMS.
