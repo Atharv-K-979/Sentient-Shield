@@ -6,6 +6,17 @@
 ## 📌 Overview
 The **Sentient-Shield** is a specialized browser extension tailored for students and faculty of the All India Shri Shivaji Memorial Society (AISSMS). It serves as a digital companion that sits right in your browser, streamlining access to academic resources, attendance tracking, and institutional updates.
 
+## Project Screenshots
+
+### Screenshot 1
+![Screenshot 1](images/image.png)
+
+### Screenshot 2
+![Screenshot 2](images/image%20%281%29.png)
+
+### Screenshot 3
+![Screenshot 3](images/image%20%282%29.png)
+
 ---
 
 ## ⚠️ The Problem Statement
