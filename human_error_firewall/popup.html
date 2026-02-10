@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEF Dashboard</title>
+    <style>
+        body {
+            width: 350px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .header {
+            background-color: #2196f3;
+            color: white;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .header img {
+            width: 24px;
+            height: 24px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .container {
+            padding: 15px;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .stat-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2196f3;
+        }
+        .stat-label {
+            font-size: 12px;
+            color: #757575;
+            margin-top: 5px;
+        }
+        .section-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #424242;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .incident-list {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        .incident-item {
+            padding: 10px 15px;
+            border-bottom: 1px solid #eee;
+            font-size: 13px;
+        }
+        .incident-item:last-child {
+            border-bottom: none;
+        }
+        .incident-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 4px;
+        }
+        .incident-domain {
+            font-weight: 600;
+            color: #424242;
+        }
+        .incident-time {
+            color: #9e9e9e;
+            font-size: 11px;
+        }
+        .incident-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+        .badge {
+            background: #ffebee;
+            color: #c62828;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 10px;
+            font-weight: 500;
+        }
+        .empty-state {
+            padding: 20px;
+            text-align: center;
+            color: #9e9e9e;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="icon48.png" alt="Logo">
+        <h1>Human Error Firewall</h1>
+    </div>
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value" id="blocks-today">0</div>
+                <div class="stat-label">Blocks Today</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="avg-risk">0.0</div>
+                <div class="stat-label">Avg Risk Score</div>
+            </div>
+        </div>
+
+        <div class="section-title">Recent Incidents</div>
+        <div class="incident-list" id="incident-list">
+            <!-- Incidents will be populated here -->
+            <div class="empty-state">No recent incidents recorded.</div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
