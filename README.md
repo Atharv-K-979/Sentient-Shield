@@ -1,15 +1,15 @@
-# AISSMS Smart Assist 🎓
-**Empowering AISSMS Students through Seamless Digital Integration**
+# Sentient-Shield 🎓(Prototype)
+**Empowering Students through Seamless Digital Integration**
 
 ---
 
 ## 📌 Overview
-The **AISSMS Smart Assist** is a specialized browser extension tailored for students and faculty of the All India Shri Shivaji Memorial Society (AISSMS). It serves as a digital companion that sits right in your browser, streamlining access to academic resources, attendance tracking, and institutional updates.
+The **Sentient-Shield** is a specialized browser extension tailored for students and faculty of the All India Shri Shivaji Memorial Society (AISSMS). It serves as a digital companion that sits right in your browser, streamlining access to academic resources, attendance tracking, and institutional updates.
 
 ---
 
 ## ⚠️ The Problem Statement
-Despite having a robust infrastructure, students at AISSMS often encounter several digital friction points:
+Despite having a robust infrastructure, students often encounter several digital friction points:
 * **Complex Navigation:** Navigating through multiple sub-domains for the ERP, Library, and Moodle can be time-consuming.
 * **Manual Monitoring:** Students have to manually log in daily to check for attendance updates or internal marks.
 * **Information Overload:** Critical notices are often mixed with general circulars, making it easy to miss urgent deadlines.
@@ -18,7 +18,7 @@ Despite having a robust infrastructure, students at AISSMS often encounter sever
 ---
 
 ## ✅ The Solution
-AISSMS Smart Assist provides a **centralized interface** that simplifies the college experience:
+Sentient-Shield provides a **centralized interface** that simplifies the college experience:
 * **One-Click Portals:** Instant access to the ERP, Fee portal, and Exam section without searching for links.
 * **Live Attendance Tracker:** A persistent progress bar showing your attendance percentage compared to the 75% requirement.
 * **Smart Scraping:** Automatically extracts and displays your schedule and internal grades directly in the extension popup.
@@ -58,7 +58,7 @@ AISSMS Smart Assist provides a **centralized interface** that simplifies the col
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/username/aissms-smart-assist.git](https://github.com/username/aissms-smart-assist.git)
+   https://github.com/Atharv-K-979/Sentient-Shield/
    ```
 2. **Install dependencies:**
    ```bash
@@ -71,19 +71,16 @@ AISSMS Smart Assist provides a **centralized interface** that simplifies the col
 4.**Load into Browser:**
 Go to chrome://extensions/
 Turn on Developer Mode.
+
 Click Load Unpacked and select the dist or build folder from this project.
+
 ## 🛠️ Contributing
-This project is built by the students, for the students.
-
-Fork the Project.
-
-Create your Feature Branch (git checkout -b feature/AmazingFeature).
-
-Commit your Changes (git commit -m 'Add some AmazingFeature').
-
-Push to the Branch (git push origin feature/AmazingFeature).
-
-Open a Pull Request.
+*This project is built by the students, for the students.
+*Fork the Project.
+*Create your Feature Branch (git checkout -b feature/AmazingFeature).
+*Commit your Changes (git commit -m 'Add some AmazingFeature').
+*Push to the Branch (git push origin feature/AmazingFeature).
+*Open a Pull Request.
 
 📜 License
 Distributed under the MIT License. See LICENSE for more information.
