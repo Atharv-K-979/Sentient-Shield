@@ -8,11 +8,15 @@ The **Sentient-Shield** is a specialized browser extension tailored for students
 
 ## Project Screenshots
 
-<p align="center">
-  <img src="images/image.png" width="30%">
-  <img src="images/image%20%281%29.png" width="30%">
-  <img src="images/image%20%282%29.png" width="30%">
-</p>
+### Screenshot 1
+![Screenshot 1](images/image.png)
+
+### Screenshot 2
+![Screenshot 2](images/image%20%281%29.png)
+
+### Screenshot 3
+![Screenshot 3](images/image%20%282%29.png)
+
 
 ---
 
