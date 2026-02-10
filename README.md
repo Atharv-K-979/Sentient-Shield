@@ -61,23 +61,28 @@ AISSMS Smart Assist provides a **centralized interface** that simplifies the col
    git clone [https://github.com/username/aissms-smart-assist.git](https://github.com/username/aissms-smart-assist.git)
    ```
 2. **Install dependencies:**
-```Bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 3.**Build the production folder:**
-```Bash
-npm run build
-```
+   ```bash
+   npm run build
+   ```
 4.**Load into Browser:**
 Go to chrome://extensions/
 Turn on Developer Mode.
 Click Load Unpacked and select the dist or build folder from this project.
 ## 🛠️ Contributing
 This project is built by the students, for the students.
+
 Fork the Project.
+
 Create your Feature Branch (git checkout -b feature/AmazingFeature).
+
 Commit your Changes (git commit -m 'Add some AmazingFeature').
+
 Push to the Branch (git push origin feature/AmazingFeature).
+
 Open a Pull Request.
 
 📜 License
