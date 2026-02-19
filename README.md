@@ -80,7 +80,7 @@ Sentient-Shield provides a **centralized interface** that simplifies the college
    ```bash
    npm run build
    ```
-4.**Load into Browser:**
+4. **Load into Browser:**
    ``` bash
    Go to chrome://extensions/
    Turn on Developer Mode.
