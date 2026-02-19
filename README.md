@@ -81,9 +81,10 @@ Sentient-Shield provides a **centralized interface** that simplifies the college
    npm run build
    ```
 4.**Load into Browser:**
-Go to chrome://extensions/
-Turn on Developer Mode.
-
+   ``` bash
+   Go to chrome://extensions/
+   Turn on Developer Mode.
+   ```
 Click Load Unpacked and select the dist or build folder from this project.
 
 ## 🛠️ Contributing
